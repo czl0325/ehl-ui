@@ -39,6 +39,7 @@ export default defineComponent({
 .title-container {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   overflow: hidden;
   width: 100%;
   height: 50px;

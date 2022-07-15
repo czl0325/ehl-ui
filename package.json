@@ -1,15 +1,15 @@
 {
   "name": "czl-test-1",
   "author": "czl0325",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "private": false,
   "main": "lib/ehl-ui.umd.min.js",
   "module": "lib/ehl-ui.umd.min.js",
-  "types": "src/components/index.d.ts",
+  "types": "lib/index.d.ts",
   "files": [
-    "lib/*.umd.min.js",
-    "lib/*.css",
-    "src/**/*.d.ts"
+    "lib/ehl-ui.umd.min.js",
+    "lib/ehl-ui.css",
+    "lib/*.d.ts"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
