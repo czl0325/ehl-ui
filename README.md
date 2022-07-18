@@ -1,24 +1,40 @@
 # ehl-ui
 
-## Project setup
-```
-npm install
-```
+### 安装
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+`npm i ehl-ui -S`<br>
+当前版本0.1.1
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 组件介绍
 
-### Lints and fixes files
-```
-npm run lint
-```
+##### EPanelTitle
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+通用title标题
+
+
+|    属性名    |   属性作用    |  属性类型   |
+|:---------:|:---------:|:-------:|
+|   title   |    标题     | String  |
+|   icon    |    图标     | String  |
+| underline |  是否带下划线   | Boolean |
+| noPadding | 取消padding | Boolean |
+
+
+##### EDialog
+
+封装ElDialog对话框
+
+|      属性名       |       属性作用       |  属性类型   |
+|:--------------:|:----------------:|:-------:|
+|   showFooter   |    是否显示footer    | Boolean |
+| closeOnConfirm |   点击确定时候关闭对话框    | Boolean |
+|   noPadding    | 对话框body取消padding | Boolean |
+
+##### EDigitalPanel
+
+数字滚动效果的组件
+
+|  属性名  | 属性作用 |      属性类型      |
+|:-----:|:----:|:--------------:|
+| value | 数字的值 | String, Number |
+| color |  颜色  |     String     |
