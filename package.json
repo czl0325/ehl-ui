@@ -1,7 +1,7 @@
 {
   "name": "ehl-ui",
   "author": "czl0325",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "main": "lib/ehl-ui.umd.min.js",
   "module": "lib/ehl-ui.umd.min.js",
@@ -15,7 +15,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name ehl-ui --dest lib src/components/index.ts"
+    "lib": "vue-cli-service build --target lib --name ehl-ui --dest lib src/components/index.ts && gulp build"
   },
   "peerDependencies": {
     "element-plus": ">=2.1.0",
@@ -32,18 +32,19 @@
     "@vue/eslint-config-typescript": "^9.1.0",
     "babel-loader": "^8.2.5",
     "core-js": "^3.8.3",
+    "del": "^5.1.0",
     "element-plus": "^2.2.9",
     "eslint": "^8.0.1",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^8.7.1",
+    "gulp": "^4.0.2",
     "sass": "^1.52.1",
     "sass-loader": "^13.0.0",
     "typescript": "~4.5.5",
     "url-loader": "^4.1.1",
     "vue": "^3.2.37",
-    "vue-tsc": "^0.38.5",
-    "webpack": "^5.73.0"
+    "vue-tsc": "^0.38.5"
   }
 }

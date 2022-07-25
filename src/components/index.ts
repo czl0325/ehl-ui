@@ -1,11 +1,13 @@
 import EPanelTitle from './EPanelTitle/index'
 import EDigitalPanel from "./EDigitalPanel/index"
 import EDialog from "./EDialog/index"
+import EPie from "./EPie/index"
 
 const components = [
   EPanelTitle,
   EDigitalPanel,
-  EDialog
+  EDialog,
+  EPie
 ]
 
 const install: any = function(Vue: any) {
@@ -26,5 +28,6 @@ export {
   // 以下是具体的组件列表
   EPanelTitle,
   EDigitalPanel,
-  EDialog
+  EDialog,
+  EPie
 }

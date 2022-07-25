@@ -1,4 +1,4 @@
-import EPanelTitle from "./src"
+import EPanelTitle from "./src/index.vue"
 import { App } from "@vue/runtime-core"
 
 EPanelTitle.install = (app: App) => {

@@ -1,4 +1,4 @@
-import EDigitalPanel from "./src"
+import EDigitalPanel from "./src/index.vue"
 import { App } from "@vue/runtime-core"
 
 EDigitalPanel.install = (app: App) => {

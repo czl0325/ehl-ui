@@ -1,4 +1,4 @@
-import EDialog from "./src"
+import EDialog from "./src/index.vue"
 import { App } from "@vue/runtime-core"
 
 EDialog.install = (app: App) => {
