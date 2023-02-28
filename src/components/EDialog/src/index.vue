@@ -1,5 +1,5 @@
 <template>
-  <el-dialog v-model="visible" append-to-body destroy-on-close width="80%" :custom-class="noPadding?'dialog-nopadding':'dialog-container'" top="0" v-bind="$attrs" :close-on-click-modal="false">
+  <el-dialog v-model="visible" append-to-body destroy-on-close width="80%" align-center :class="noPadding?'dialog-nopadding':'dialog-container'" top="0" v-bind="$attrs" :close-on-click-modal="false">
     <template v-for="(item, key, index) in $slots" :key="index" v-slot:[key]>
       <slot :name="key"></slot>
     </template>
@@ -61,5 +61,5 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 </style>

@@ -1,5 +1,5 @@
 import EPanelTitle from "./src/index.vue"
-import { App } from "@vue/runtime-core"
+import { App } from "vue"
 
 EPanelTitle.install = (app: App) => {
   app.component(EPanelTitle.name, EPanelTitle)

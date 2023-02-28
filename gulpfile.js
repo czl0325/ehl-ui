@@ -14,8 +14,6 @@ gulp.task("gen", function (cb) {
   process.env.PATH += `:${path.join(cwd, "node_modules", ".bin")}`
   // console.log(process.env.PATH)
   cp.exec("vue-tsc --declaration --emitDeclarationOnly", function (err, stdout, stderr) {
-    console.log(err)
-    console.log(stdout)
     cb()
   })
 })
